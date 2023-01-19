@@ -14,7 +14,7 @@ patch:
   #style/color_scheme: ink
   #style/color_scheme: nord_light
   # 深色主题（使用哪个主题去掉前面的 #）
-  style/color_scheme_dark: mac_dark
+  style/color_scheme_dark: mac_light
   #style/color_scheme_dark: psionics
   #style/color_scheme_dark: solarized_rock
   #style/color_scheme_dark: solarized_dark
@@ -125,7 +125,7 @@ patch:
 
     mac_blue:
       name: Mac浅蓝
-      horizontal: false              # true横排，false竖排
+      horizontal: true              # true横排，false竖排
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       font_face: "PingFangSC"                      # 候选词字体
@@ -380,13 +380,13 @@ patch:
 # 特定App默认中/英文输入   
   app_options:    
     com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true             # true默认英文,false默认中文
+        ascii_mode: false             # true默认英文,false默认中文
     com.runningwithcrayons.Alfred:   # alfred
         ascii_mode: true
     com.apple.Terminal:              # 终端
         ascii_mode: true
     com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: true
+        ascii_mode: false
         ascii_punct: true            # 中文状态输出英文标点(半角) 
     com.tencent.Lemon:               # 腾讯柠檬
         ascii_mode: true

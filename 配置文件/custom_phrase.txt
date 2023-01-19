@@ -10,3 +10,9 @@ HarmonyOS	hm	2
 T恤	txu
 U盤	upan
 up主	upzhu
+龚奕文	gong yi wen
+孙炯	sun jiong
+龚瑛杰	gong ying jie
+龚奕文	gyw	1
+孙炯	sj	1
+龚瑛杰	gyj	1
